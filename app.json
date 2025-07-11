@@ -25,6 +25,10 @@
     },
     "plugins": [
       "expo-router",
+      "expo-av",
+      {
+          "microphonePermission": "Allow Artifonia to access your microphone."
+        },
       [
         "expo-splash-screen",
         {
